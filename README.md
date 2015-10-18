@@ -9,4 +9,4 @@ As in react native framework, only #hex|rbg|rbga colors are accepted，I made th
 
 
 
-## Useage
+## Usage

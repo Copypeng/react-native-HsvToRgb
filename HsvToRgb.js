@@ -43,5 +43,10 @@ function bound(value){
 module.exports = {
   getRGB: function(h,s,v): ?Object {
     return hsv2rgb(h,s,v);
+  },
+
+  getRGBString: function(h,s,v): ?Object {
+    let rgb = hsv2rgb(h,s,v);
+    return 'rgb(' + rgb.r + ',' + rgb.g + ',' + rgb.b + ')';
   }
 };
